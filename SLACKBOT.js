@@ -120,6 +120,10 @@ LOUDBOT.prototype.ISSPECIAL = function ISSPECIAL(MSG)
     {
         return 'https://i.cloudup.com/MhNp5cf7Fz.gif';
     }
+	if (MSG.toUpperCase().match(/BANANA\.*PHONE/))
+    {
+        return 'https://s-media-cache-ak0.pinimg.com/736x/fb/e1/cd/fbe1cdbc1b728fbb5e157375905d576f.jpg';
+    }
 };
 
 LOUDBOT.prototype.REMEMBER = function REMEMBER(LOUD)
